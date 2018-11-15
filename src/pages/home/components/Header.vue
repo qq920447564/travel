@@ -17,12 +17,13 @@
 
 <script>
     export default {
-        name: "header"
+        name: "Header"
     }
 </script>
 
 <style lang="stylus" scoped>
-  @import '../../../assets/styles/varibles.styl'/*../代表返回上一层 ./代表在这一层*~@/assets/styles/varibles.styl/
+  //../代表返回上一层 ./代表在这一层*~@/assets/styles/varibles.styl/
+  @import '../../../assets/styles/varibles.styl'
 .header
   display:flex
   line-height:0.86rem
